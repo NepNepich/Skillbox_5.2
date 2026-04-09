@@ -1,36 +1,214 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Ритейл — Twist</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ритейл&nbsp;&mdash; Twist</title>
   </head>
   <body>
     <header class="header">
       <div class="container">
         <div class="header__wrapper">
-          <button class="header__burger" type="button" aria-label="Открыть меню">
-            <svg class="header__burger-icon" xmlns="http://www.w3.org/2000/svg" width="48" height="23" fill="none"><path fill="#fff" d="M0 0h48v1H0zM0 11h36v1H0zM0 22h20v1H0z"/></svg>
+          <button
+            class="header__burger"
+            type="button"
+            aria-label="Открыть меню"
+          >
+            <svg
+              class="header__burger-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="23"
+              fill="none"
+            >
+              <path fill="#fff" d="M0 0h48v1H0zM0 11h36v1H0zM0 22h20v1H0z" />
+            </svg>
           </button>
           <a class="header__logo-link" href="#">
-            <img class="header__logo-image" src="images/logo-twist.svg" width="120" height="24" alt="Логотип компании Твист">
+            <img
+              class="header__logo-image"
+              src="images/logo-header.svg"
+              width="120"
+              height="24"
+              alt="Логотип компании Твист"
+            />
           </a>
-          <button class="btn header__btn" type="button">
-            Выбрать офис
+          <a href="#" class="btn header__btn" type="button">Выбрать офис</a>
+          <button
+            class="header__favorites"
+            type="button"
+            aria-label="Открыть избранные товары"
+          >
+            <svg
+              class="header__favorites-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="20"
+              fill="none"
+            >
+              <path
+                fill="#fff"
+                d="M21.785 4.706C21.169 2.136 19.258.33 16.852.052c-2.385-.279-4.171.831-5.518 2.92-.112.175-.211.354-.336.567a3.349 3.349 0 0 1-.13-.218C10.09 1.956 9.083.883 7.676.345 4.54-.845.71 1.1.082 5.353c-.306 2.088.262 3.908 1.399 5.552.826 1.195 1.8 2.24 2.854 3.189 2.057 1.852 4.14 3.676 6.21 5.51.147.127.29.254.449.396.056-.047.111-.09.168-.137 2.035-1.795 4.084-3.577 6.107-5.391 1.189-1.063 2.312-2.207 3.246-3.558.723-1.049 1.253-2.192 1.425-3.51.017-.137.043-.28.06-.416V5.906c-.073-.402-.12-.808-.215-1.2Z"
+              />
+            </svg>
           </button>
-          <button class="header__favorites" type="button" aria-label="Открыть избранные товары">
-            <svg class="header__favorites-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="20" fill="none"><path fill="#fff" d="M21.785 4.706C21.169 2.136 19.258.33 16.852.052c-2.385-.279-4.171.831-5.518 2.92-.112.175-.211.354-.336.567a3.349 3.349 0 0 1-.13-.218C10.09 1.956 9.083.883 7.676.345 4.54-.845.71 1.1.082 5.353c-.306 2.088.262 3.908 1.399 5.552.826 1.195 1.8 2.24 2.854 3.189 2.057 1.852 4.14 3.676 6.21 5.51.147.127.29.254.449.396.056-.047.111-.09.168-.137 2.035-1.795 4.084-3.577 6.107-5.391 1.189-1.063 2.312-2.207 3.246-3.558.723-1.049 1.253-2.192 1.425-3.51.017-.137.043-.28.06-.416V5.906c-.073-.402-.12-.808-.215-1.2Z"/></svg>
-          </button>
-          <a class="header__phone-link" href="tel:+74953338787">
-            +7&nbsp;495&nbsp;333 87&nbsp;87
+          <a class="header__phone-link" href="#">
+            +7&nbsp;495&nbsp;333&nbsp;87&nbsp;87
           </a>
         </div>
       </div>
     </header>
     <main>
       <!-- Основное содержимое -->
+      <div class="container">
+        <section class="page-content">
+          <div class="page-content__content">
+            <div>
+              <p class="page-content__main-text">
+                <span
+                  >Ритейл прямо&nbsp;у&nbsp;метро прямо&nbsp;на&nbsp;ТТК</span
+                >
+              </p>
+              <div class="page-content__middle-text">
+                <p class="page-content__white-block">
+                  <span class="upper"
+                    >от&nbsp;<span class="page-content__percent">10</span
+                    >&nbsp;%</span
+                  >
+                  первый взнос
+                </p>
+                <ol class="page-content__conditions-list">
+                  <li class="page-content__condition">
+                    Последние 3&nbsp;торговых помещения
+                  </li>
+                  <li class="page-content__condition">
+                    Вложения от&nbsp;9,5&nbsp;млн&nbsp;₽
+                  </li>
+                  <li class="page-content__condition">
+                    Рассрочка до&nbsp;окончания строительства
+                  </li>
+                  <li class="page-content__condition">
+                    Ставка&nbsp;16%&nbsp;годовых
+                  </li>
+                  <li class="page-content__condition">
+                    Возможность уступки прав требований
+                  </li>
+                </ol>
+              </div>
+              <a class="page-content__offer-link" href="#"
+                >Получить предложение</a
+              >
+            </div>
+          </div>
+          <img
+            class="page-content__img"
+            src="images/background-image.png"
+            alt="Задник"
+            width="640"
+            height="700"
+          />
+        </section>
+      </div>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__content">
+          <div class="footer__location">
+            <span class="footer__place">Дом продаж</span>
+            <p class="footer_address">
+              г. Москва, Кадашёвская набережная,<br />д. 6/1/2 с1, вход
+              с&nbsp;набережной
+            </p>
+            <a class="footer__mapper" href="#">Построить маршрут</a>
+          </div>
+          <a href="#">
+            <img
+              class="footer__logo"
+              src="images/logo-footer.svg"
+              alt="Лого Твист"
+            />
+          </a>
+          <div class="footer__contacts">
+            <a class="footer__phone" href="#">+7 (495) 182-86-78</a>
+            <a class="footer__email" href="#">sales@sminex.com</a>
+          </div>
+        </div>
+        <ul class="footer__messagers">
+          <li>
+            <a href="#">
+              <img src="images/whatsapp.svg" alt="вацап" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/telegram.svg" alt="тг" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/youtube.svg" alt="ютуб" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/vk.svg" alt="вк" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src="images/yandex.svg" alt="яндекс" />
+            </a>
+          </li>
+        </ul>
+        <ul class="footer__about">
+          <li>
+            <a href="#">Коротко о&nbsp;проекте</a>
+          </li>
+          <li>
+            <a href="#">Динамика строительства</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="#">Документы</a>
+          </li>
+          <li>
+            <a href="#">Рассрочка</a>
+          </li>
+          <li>
+            <a href="#">O&nbsp;Sminex-Интеко</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+          <li>
+            <a href="#">Правовая информация</a>
+          </li>
+        </ul>
+        <div class="footer__bottom">
+          <p class="footer__bottom-text">
+            Содержание настоящего сайта twist-office.ru, включая любую
+            информацию и&nbsp;результаты интеллектуальной деятельности,
+            принадлежит ООО &laquo;БАЗАЛЬТ&raquo; (ИНН&nbsp;7705739315)
+            и&nbsp;защищено законодательством Российской Федерации
+            и&nbsp;международными соглашениями. Любое использование,
+            копирование, воспроизведение или&nbsp;распространение любой
+            размещённой на&nbsp;настоящем сайте информации, материалов
+            и/или&nbsp;их&nbsp;частей не&nbsp;допускается
+            без&nbsp;предварительного получения согласия правообладателя. Сайт
+            носит исключительно информационный характер
+            и&nbsp;ни&nbsp;при&nbsp;каких условиях не&nbsp;является публичной
+            офертой, определяемой положениями статьи&nbsp;437 Гражданского
+            кодекса Российской Федерации.
+          </p>
+          <a href="#">
+            <img src="images/bottom-logo.svg" alt="Нижнее лого" />
+          </a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
